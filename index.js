@@ -18,3 +18,9 @@ function distanceTravelledInFeet(startStreet, currentStreet) {
     return (currentStreet - startStreet) * 264;
   }
 }
+
+function calculatesFarePrice (start, destination) {
+  let distanceTr = distanceTravelledInFeet(start, destination);
+
+  }
+}
