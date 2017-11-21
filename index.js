@@ -25,8 +25,7 @@ function calculatesFarePrice (start, destination) {
     return 0;
   } else if (distanceTr <= 2000) {
     return distanceTr * .02
-
-  } else {
-
+  } else if (distanceTr <= 2500) {
+    return 25;
   }
   }
