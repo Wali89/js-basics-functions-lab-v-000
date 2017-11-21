@@ -23,7 +23,8 @@ function calculatesFarePrice (start, destination) {
   let distanceTr = distanceTravelledInFeet(start, destination);
   if (distanceTr <= 400) {
     return 0;
-  } else if (distanceTr  ) {
+  } else if (distanceTr <= 2000) {
+    return distanceTr * .02
 
   } else {
 
