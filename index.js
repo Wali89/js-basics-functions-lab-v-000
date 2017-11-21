@@ -21,9 +21,9 @@ function distanceTravelledInFeet(startStreet, currentStreet) {
 
 function calculatesFarePrice (start, destination) {
   let distanceTr = distanceTravelledInFeet(start, destination);
-  if (distanceTr < 400) {
+  if (distanceTr <= 400) {
     return 0;
-  } else if (distanceTr ) {
+  } else if (distanceTr  ) {
 
   } else {
 
